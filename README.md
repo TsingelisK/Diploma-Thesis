@@ -20,7 +20,9 @@ More details at TwiBot-20 data , please download 'Twibot-20.zip' to the folder w
                      class Twibot20(self,root='./Data/,device='cpu',process=True,save=True)
 
 root - the folder where the processed data is saved , the default folder is './Data' , which has already been created
+
 save - whether to save the processed data or not (set it to True can save you a lot of time if you want to run this model for further ablation study)
+
 process - If you have already saved the processed data,set it to True
 
 ### Model.py
